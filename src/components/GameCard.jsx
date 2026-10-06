@@ -1,3 +1,4 @@
+
 const GameCard = ({ titulo, preco, imagem }) => {
   return (
     <div className="bg-black rounded-2xl overflow-hidden transition all duration-300 hover:-translate-y-2  hover: border-4 hover:border-[#95ff00]">
@@ -9,11 +10,10 @@ const GameCard = ({ titulo, preco, imagem }) => {
         <p className="text-white text-2xl font-bold mb-4">{preco}</p>
 
         <button className=" bg-gradiente-to-r from bg-cyan-400
-        to-pink-500 w-[50%] py-4 px-4 text-white rounded-2xl
-        border-none cursor-pointer hover:scale-105 ">
+          to-pink-500 w-[50%] py-4 px-4 text-white rounded-2xl
+          border-none cursor-pointer hover:scale-105 ">
           Comprar
         </button>
-
       </article>
 
 
